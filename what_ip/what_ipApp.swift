@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct what_ipApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup("What IP") {
             ContentView()
         }
+        .defaultSize(width: 480, height: 300)
     }
 }
